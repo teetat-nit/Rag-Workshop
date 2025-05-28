@@ -1,0 +1,37 @@
+# Setting Up Azure OpenAI Service
+
+## Prerequisites
+- An Azure subscription
+- Access to Azure OpenAI Service (requires application approval)
+- Basic understanding of API integration
+
+## Step 1: Create an Azure OpenAI resource
+1. Sign in to the Azure portal
+2. Click "Create a resource"
+3. Search for "Azure OpenAI"
+4. Click "Create"
+5. Fill in the required details:
+   - Subscription
+   - Resource group
+   - Region
+   - Name
+   - Pricing tier
+6. Click "Review + create"
+7. After validation passes, click "Create"
+
+## Step 2: Deploy a model
+1. Navigate to your Azure OpenAI resource
+2. Select "Model deployments" from the left menu
+3. Click "Create new deployment"
+4. Choose a model (e.g., gpt-35-turbo, text-embedding-ada-002)
+5. Set deployment name and version
+6. Click "Create"
+
+## Step 3: Get API details
+1. Go to "Keys and Endpoint" in the left menu
+2. Note down:
+   - Endpoint URL
+   - API key
+   - Deployment name
+
+These details will be used in your application code to authenticate and access the Azure OpenAI API.
